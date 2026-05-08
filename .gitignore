@@ -1,0 +1,30 @@
+# Virtual environment
+.venv/
+venv/
+
+# Snakemake cache
+.snakemake/
+
+# Corpus (download from ORTOLANG)
+ru-fr_interference/
+
+# Generated features (regenerated from corpus by pipeline)
+data/
+
+# Word lock files / backups
+~$*
+*.backup.docx
+report.docx
+
+# Assignment PDF (not ours to redistribute)
+2026_phonetics_m1_cl.pdf
+
+# OS / editor
+.DS_Store
+.idea/
+.vscode/
+
+# Python
+*.pyc
+__pycache__/
+*.egg-info/

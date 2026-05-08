@@ -1,0 +1,6 @@
+comparison,mantel_r,p_value
+acoustic_euclidean vs whisper,0.7705,0.0002
+acoustic_mahalanobis vs whisper,0.732,0.0002
+acoustic_euclidean vs xlsr,0.6949,0.0002
+acoustic_mahalanobis vs xlsr,0.6415,0.0002
+whisper vs xlsr,0.8912,0.0002

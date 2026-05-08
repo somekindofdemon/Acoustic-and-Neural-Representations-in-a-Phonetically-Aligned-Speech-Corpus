@@ -1,0 +1,13 @@
+representation,phoneme_set,partition,k,ARI
+acoustic,vowels,front_back,2,0.6017699115044248
+acoustic,vowels,high_mid_low,3,0.26550598476605003
+whisper,vowels,front_back,2,0.6017699115044248
+whisper,vowels,high_mid_low,3,0.26550598476605003
+xlsr,vowels,front_back,2,-0.07142857142857142
+xlsr,vowels,high_mid_low,3,0.06682027649769585
+acoustic,speakers,L1_status,2,-0.010638297872340425
+acoustic,speakers,gender,2,-0.010638297872340425
+whisper,speakers,L1_status,2,0.43773119605425403
+whisper,speakers,gender,2,0.7891491985203453
+xlsr,speakers,L1_status,2,0.2962962962962963
+xlsr,speakers,gender,2,1.0

@@ -1,0 +1,49 @@
+corpus_dir: "ru-fr_interference/2/wav_et_textgrids/FRcorp_textgrids_only"
+metadata_file: "ru-fr_interference/2/metadata_RUFR.csv"
+rufrcorr_file: "ru-fr_interference/2/RUFRcorr.csv"
+data_dir: "data"
+results_dir: "results"
+
+# Acoustic extraction
+max_formant_female: 5000
+max_formant_male: 4500
+n_formants: 5
+long_vowel_threshold_ms: 80.0
+
+# Whisper
+whisper_model: "openai/whisper-medium"
+whisper_layer_lower: 4
+whisper_layer_upper: 20
+
+# XLS-R
+xlsr_model: "facebook/wav2vec2-large-xlsr-53"
+xlsr_layers: [3, 9, 18]
+
+# Dimensionality reduction
+pca_n_components_analysis: 50
+pca_n_components_viz: 2
+umap_n_neighbors: 15
+umap_min_dist: 0.1
+
+# Bootstrap / permutation
+bootstrap_n: 2000
+n_permutations: 5000
+random_seed: 42
+
+# French oral vowels (IPA)
+french_oral_vowels:
+  - "a"
+  - "ɑ"
+  - "e"
+  - "ɛ"
+  - "i"
+  - "o"
+  - "u"
+  - "y"
+  - "ø"
+  - "ə"
+
+# ROPE: ±20 Hz converted to Lobanov z-score units
+# Typical within-speaker SD(F1) ≈ 130 Hz → ±20 Hz ≈ ±0.15 z
+rope_acoustic_hz: 20.0
+rope_acoustic_z: 0.15

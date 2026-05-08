@@ -1,0 +1,4 @@
+representation,n_vowels,n_consonants,consonants_used,features_used,partition,k,ARI
+acoustic_SCG+duration_ms,10,15,"p,b,t,d,k,ɡ,f,v,s,z,ʃ,ʒ,n,l,ʁ",SCG+duration_ms,consonant_vs_vowel,2,-0.04
+whisper_layer4,10,15,"p,b,t,d,k,ɡ,f,v,s,z,ʃ,ʒ,n,l,ʁ",layer_4_hidden_states,consonant_vs_vowel,2,0.3333333333333333
+xlsr_layer3,10,15,"p,b,t,d,k,ɡ,f,v,s,z,ʃ,ʒ,n,l,ʁ",layer_3_hidden_states,consonant_vs_vowel,2,0.3333333333333333

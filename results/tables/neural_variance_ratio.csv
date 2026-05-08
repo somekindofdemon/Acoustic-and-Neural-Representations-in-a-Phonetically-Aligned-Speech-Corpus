@@ -1,0 +1,5 @@
+representation,layer,method,between_class_var_ratio
+whisper,4,PCA,0.6782
+whisper,4,UMAP,0.1254
+xlsr,3,PCA,0.6942
+xlsr,3,UMAP,0.1277

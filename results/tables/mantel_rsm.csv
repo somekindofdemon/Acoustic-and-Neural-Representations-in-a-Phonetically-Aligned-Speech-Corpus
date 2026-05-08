@@ -1,0 +1,4 @@
+comparison,n_entities,mantel_r,p_value
+acoustic vs whisper,185,0.4415,0.001
+acoustic vs xlsr,185,0.6512,0.001
+whisper vs xlsr,185,0.7859,0.001
